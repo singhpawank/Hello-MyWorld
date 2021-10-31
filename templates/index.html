@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+  
+<div class="container-fluid my-4 mx-0 px-0">
+
+<div id="carouselExampleControls" class="carousel slide mx-0" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1793&q=80" class="d-block w-100" alt="..." height="640px"> 
+     <div class="hello center">
+     <h1 >Hello! My name is Pawan.</h1>
+     <p class="subtitle">Welcome to my website!</p>
+     </div>
+    <figcaption class="figure-caption bottom-left" >&#169;Photo by <a class="img-credit" href="https://unsplash.com/@zoltantasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zoltan Tasi</a> on <a class="img-credit" href="https://unsplash.com/@singhpawank/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </figcaption>
+    </div>
+    <div class="carousel-item">
+      <img src="static\img\photo-4.jpg" class="d-block w-100" alt="..." height="640px">
+      <figcaption class="figure-caption bottom-left" >&#169; Photo by <a class="img-credit" href="https://unsplash.com/@memory_terra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Diaz</a> on <a class="img-credit" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </figcaption>
+  
+    </div>
+
+    <div class="carousel-item">
+      <img src="static\img\photo-3.jpg" class="d-block w-100" alt="..." height="640px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+{% endblock body %}
+
+
+
