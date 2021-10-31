@@ -1,0 +1,33 @@
+.bottom-left {
+  color: white;
+    mix-blend-mode: overlay;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+
+.img-credit {
+  color: inherit;
+  text-decoration: none;
+}
+
+.center{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.center h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 3em;
+}
+
+.center .subtitle{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2em;
+}
+
